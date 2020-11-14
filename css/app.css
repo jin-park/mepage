@@ -47,12 +47,8 @@ app {
 }
 
 .sidebar {
-    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+    background-image: linear-gradient(180deg, #CB3C33, #389826, #4063D8, #9558B2);
 }
-
-    .sidebar .top-row {
-        background-color: rgba(0,0,0,0.4);
-    }
 
     .sidebar .navbar-brand {
         font-size: 1.1rem;
@@ -88,7 +84,7 @@ app {
         }
 
             .sidebar .nav-item a.active {
-                background-color: rgba(255,255,255,0.25);
+                background-color: rgba(255,255,255,0.25) !important;
                 color: white;
             }
 
